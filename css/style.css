@@ -5148,7 +5148,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__top-bar-menu > ul > li > i,
 .ltn__top-bar-menu > ul > li > a > i {
   margin-right: 3px;
-  color: var(--ltn__secondary-color);
+  color: #fff;
 }
 
 .ltn__top-bar-menu .ltn__currency-menu .active-currency {
@@ -5212,7 +5212,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 1px;
-  display: contents;
+  /* display: contents; abhi*/
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
 }
 .site-logo i {
   color: var(--ltn__secondary-color);
@@ -5313,6 +5316,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .header-menu-wrap,
 .header-menu-column {
   position: inherit;
+  /* Abhi Modified */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
 }
 
 .ltn__main-menu ul {
@@ -6500,7 +6507,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__header-4 .ltn__header-middle-area.sticky-active,
 .ltn__header-5 .ltn__header-middle-area.sticky-active {
   padding-top: 10px;
-  padding-bottom: 10px;
+  /* Abhi Modified */
+  padding-bottom: 170px;
 }
 
 /* Sticky Background Secondary */
@@ -18082,3 +18090,19 @@ input.cart-plus-minus-box {
 ---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+.site-logo img {
+  max-width: 60%;
+  margin-top: 30%;
+}
+
+.body-text {
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+.section-title-abhi {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+}
