@@ -17316,6 +17316,7 @@ input.cart-plus-minus-box {
 ---------------------------------------------------- */
 .footer-widget .footer-title {
   font-size: 22px;
+  text-align: center;
 }
 
 /* footer-2 */
@@ -17416,6 +17417,7 @@ input.cart-plus-minus-box {
 
 .footer-widget {
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .footer-logo {
@@ -17447,7 +17449,7 @@ input.cart-plus-minus-box {
   content: '';
 }
 .footer-address ul li .footer-address-icon {
-  float: left;
+  float: none;
   margin-right: 15px;
 }
 .footer-address ul li .footer-address-info {
@@ -18096,6 +18098,21 @@ input.cart-plus-minus-box {
 
 .site-logo img {
   max-width: 100%;
+}
+
+.site-logoo img {
+  max-width: 20%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media only screen and (max-width: 768px) {
